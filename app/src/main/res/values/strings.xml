@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Borger Kong App</string>
+    <string name="item_image">item photo</string>
+    <string name="view_order_btn">View Order</string>
+    <string name="lable_quantity">Quantity</string>
+    <string name="add_order_btn">Add To Order</string>
+    <string name="sample_text">Sample</string>
+    <string name="minus_btn">Minus Button</string>
+    <string name="add_btn">Add Button</string>
+    <string name="close_btn">Close Button</string>
+</resources>
