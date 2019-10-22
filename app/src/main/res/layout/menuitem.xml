@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuitem_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -19,16 +20,19 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/menuItem"
-        android:layout_width="wrap_content"
+        android:id="@+id/menuItemName"
+        android:layout_width="216dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
         android:text="@string/sample_text"
         android:textColor="@color/colorItemName"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/itemPicture"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,14 +40,53 @@
         android:id="@+id/itemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:text="@string/sample_text"
         android:textColor="@color/colorPrice"
         android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/dollar_label"
+        app:layout_constraintTop_toBottomOf="@+id/menuItemName" />
+
+    <TextView
+        android:id="@+id/kilojoules_lb"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/food_kilojoules"
+        android:text="@string/sample_text"
+        android:textColor="@color/colorPrice"
         app:layout_constraintStart_toEndOf="@+id/itemPicture"
-        app:layout_constraintTop_toBottomOf="@+id/menuItem" />
+        app:layout_constraintTop_toBottomOf="@+id/itemPrice" />
+
+    <TextView
+        android:id="@+id/kj_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/kj_label"
+        android:textColor="@color/colorPrice"
+        app:layout_constraintStart_toEndOf="@+id/kilojoules_lb"
+        app:layout_constraintTop_toBottomOf="@+id/itemPrice" />
+
+    <TextView
+        android:id="@+id/dollar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/dollar_sign"
+        android:textColor="@color/colorPrice"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/kilojoules_lb"
+        app:layout_constraintStart_toEndOf="@+id/itemPicture"
+        app:layout_constraintTop_toBottomOf="@+id/menuItemName"
+        app:layout_constraintVertical_bias="0.0" />
 
     <View
         android:id="@+id/divider"
@@ -51,7 +94,8 @@
         android:layout_height="1dp"
         android:layout_marginTop="16dp"
         android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/itemPicture" />
+        app:layout_constraintTop_toBottomOf="@+id/kilojoules_lb" />
 </androidx.constraintlayout.widget.ConstraintLayout>

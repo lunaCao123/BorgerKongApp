@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Borger Kong App</string>
+    <string name="app_name">BORGER KONG</string>
     <string name="item_image">item photo</string>
     <string name="view_order_btn">View Order</string>
     <string name="lable_quantity">Quantity</string>
@@ -8,4 +8,7 @@
     <string name="minus_btn">Minus Button</string>
     <string name="add_btn">Add Button</string>
     <string name="close_btn">Close Button</string>
+    <string name="food_kilojoules">Kilojoules</string>
+    <string name="kj_label">kJ</string>
+    <string name="dollar_sign">$</string>
 </resources>
