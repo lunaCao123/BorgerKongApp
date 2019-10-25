@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44055265-35f3-410d-b98f-02b8dc22470d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/borgerkongapp/ViewOrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/borgerkongapp/ViewOrderDetail.java" afterDir="false" />
-    </list>
+    <list default="true" id="44055265-35f3-410d-b98f-02b8dc22470d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/borgerkongapp/ViewOrderDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+            <state relative-caret-position="765">
+              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,8 +162,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="880" />
-    <option name="y" value="23" />
+    <option name="x" value="19" />
+    <option name="y" value="39" />
     <option name="width" value="1308" />
     <option name="height" value="1320" />
   </component>
@@ -332,11 +330,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="23" width="1308" height="1320" extended-state="0" />
+    <frame x="19" y="39" width="1308" height="1320" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22116904" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22116904" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -351,7 +349,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3294606" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5002504" side_tool="true" weight="0.31574073" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49974963" visible="true" weight="0.16099586" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49974963" visible="true" weight="0.16099586" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3294606" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -544,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/borgerkongapp/ViewOrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+        <state relative-caret-position="765">
+          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
