@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorViewOrderBtn"
         android:fontFamily="sans-serif-black"
+        android:onClick="viewOrderBtn"
         android:text="@string/view_order_btn"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

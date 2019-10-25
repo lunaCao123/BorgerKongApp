@@ -63,18 +63,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/sample_text"
         android:textColor="@color/colorPrice"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/dollarText"
-        app:layout_constraintTop_toBottomOf="@+id/detailItemName" />
+        app:layout_constraintTop_toBottomOf="@+id/detailItemName"
+        tools:text="@string/sample_text" />
 
     <TextView
         android:id="@+id/quantityLb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/lable_quantity"
         android:textColor="@color/colorItemName"
         android:textSize="24sp"
@@ -97,50 +97,39 @@
 
     <ImageButton
         android:id="@+id/minusBtn"
-        android:layout_width="43dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="125dp"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
         android:background="@color/white"
         android:contentDescription="@string/minus_btn"
         android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/quantity"
         app:layout_constraintTop_toBottomOf="@+id/quantityLb"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/plusBtn"
-        android:layout_width="43dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="125dp"
-        android:layout_marginRight="125dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
         android:background="@color/white"
         android:contentDescription="@string/add_btn"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/quantity"
         app:layout_constraintTop_toBottomOf="@+id/quantityLb"
         tools:src="@tools:sample/avatars" />
 
     <EditText
         android:id="@+id/quantity"
-        android:layout_width="49dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
-        android:ems="10"
+        android:layout_width="36dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
         android:inputType="number"
-        app:layout_constraintEnd_toStartOf="@+id/plusBtn"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toEndOf="@+id/minusBtn"
-        app:layout_constraintTop_toBottomOf="@+id/quantityLb"/>
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quantityLb" />
 
     <Button
         android:id="@+id/addOrderBtn"
@@ -148,6 +137,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorViewOrderBtn"
         android:fontFamily="sans-serif-black"
+        android:onClick="addOrderBtn"
         android:text="@string/add_order_btn"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -191,6 +181,43 @@
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/detailmenuitemkJ"
         app:layout_constraintTop_toBottomOf="@+id/detailItemName" />
+
+    <TextView
+        android:id="@+id/itemTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/zero"
+        android:textColor="@color/colorItemName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/addOrderBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/dl_lb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/dollar_sign"
+        android:textColor="@color/colorItemName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/addOrderBtn"
+        app:layout_constraintEnd_toStartOf="@+id/itemTotal" />
+
+    <TextView
+        android:id="@+id/total_lb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/total"
+        android:textColor="@color/colorPrice"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/addOrderBtn"
+        app:layout_constraintEnd_toStartOf="@+id/dl_lb" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,11 +5,11 @@ public class MenuItem {
     private int menuitemID;
     private String menuitemName;
     private String menuitemDescription;
-    private String menuitemPrice;
+    private double menuitemPrice;
     private int imageDrawableId;
     private String kilojoules;
 
-    public MenuItem(int menuitemID, String menuitemName, String menuitemDescription, String menuitemPrice, String kilojoules, int imageDrawableId) {
+    public MenuItem(int menuitemID, String menuitemName, String menuitemDescription, double menuitemPrice, String kilojoules, int imageDrawableId) {
         this.menuitemID = menuitemID;
         this.menuitemName = menuitemName;
         this.menuitemDescription = menuitemDescription;
@@ -43,11 +43,11 @@ public class MenuItem {
     }
 
 
-    public String getMenuitemPrice() {
+    public double getMenuitemPrice() {
         return menuitemPrice;
     }
 
-    public void setMenuitemPrice(String menuitemPrice) {
+    public void setMenuitemPrice(double menuitemPrice) {
         this.menuitemPrice = menuitemPrice;
     }
 

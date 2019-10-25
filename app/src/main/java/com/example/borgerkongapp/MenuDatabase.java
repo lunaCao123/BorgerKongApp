@@ -20,7 +20,7 @@ public class MenuDatabase {
                 1,
                 "Cheese Borger",
                 "Regular Bun, Beef Patty, Regular Onions, Mustard, Ketchup, Pickles, Sliced Cheese",
-                "3.30",
+                3.30,
                 "1260",
                 R.drawable.cheeseburger
         ));
@@ -28,7 +28,7 @@ public class MenuDatabase {
                 2,
                 "Angus Clubhouse",
                 "Borger Bun, Angus Beef, Big Borger Special Sauce, Whole Leaf Lettuce, Sliced Tomato, Rasher Bacon, Caramelised Grilled Onions, Aussie Jack Cheese, Angus Seasoning",
-                "8.85",
+                8.85,
                 "3040",
                 R.drawable.angusclubhouse
         ));
@@ -36,7 +36,7 @@ public class MenuDatabase {
                 3,
                 "Crispy Spyicy Chicken Clubhouse",
                 "Borger Bun, Crispy Chicken, Sriracha Sauce, Big Borger Special Sauce, Whole Leaf Lettuce, Sliced Tomato, Aussie Jack Cheese, Rasher Bacon, Caramelised Grilled Onions",
-                "7.45",
+                7.45,
                 "2220",
                 R.drawable.crispyspicychicken
         ));
@@ -44,7 +44,7 @@ public class MenuDatabase {
                 4,
                 "Crispy Chicken Borger",
                 "Borger Bun, Chicken Patty, Special Chicken Sauce, Shredded Lettuce",
-                "6.00",
+                6.00,
                 "1890",
                 R.drawable.chickenburger
         ));
@@ -52,7 +52,7 @@ public class MenuDatabase {
                 5,
                 "Chicken Caesar Wrap",
                 "Wholemeal Tortilla, Crispy Chicken Fillet, Crispy Bacon, Shaved Parmesan Cheese, Diced Lettuce Mix, Caesar Sauce",
-                "7.75",
+                7.75,
                 "2460",
                 R.drawable.chickencaesarwrap
         ));
@@ -60,7 +60,7 @@ public class MenuDatabase {
                 6,
                 "Crispy Chicken Caesar Salad",
                 "Crispy Chicken, Creamy Caesar Dressing, Cos-Iceberg Blend, Crispy Bacon, Shaved Parmesan",
-                "9.95",
+                9.95,
                 "2490",
                 R.drawable.crispychickencaesarsalad
         ));
@@ -68,7 +68,7 @@ public class MenuDatabase {
                 7,
                 "Chicken Nuggets 6pc",
                 "Deep Fried, Battered Chicken Meat",
-                "6.00",
+                6.00,
                 "1110",
                 R.drawable.chickennuggets
         ));
@@ -76,7 +76,7 @@ public class MenuDatabase {
                 8,
                 "Filet-O-Fish",
                 "Regular Bun, Filet-O-Fish Portion, Tartare Sauce, 1/2 Cheese slice",
-                "5.25",
+                5.25,
                 "1410",
                 R.drawable.fishburger
         ));
@@ -84,7 +84,7 @@ public class MenuDatabase {
                 9,
                 "Coffee Frappe",
                 "Crushed Ice blended with Coffee, Whipped Cream",
-                "4.90",
+                4.90,
                 "2380",
                 R.drawable.coffeefrappe
         ));
@@ -92,7 +92,7 @@ public class MenuDatabase {
                 10,
                 "Bottled Water 600ml",
                 "Refresh yourself with a healthy choice!",
-                "3.40",
+                3.40,
                 "0",
                 R.drawable.waterbottled
         ));
@@ -100,7 +100,7 @@ public class MenuDatabase {
                 11,
                 "Frozen Fanta Raspberry",
                 "Pink Raspberry Flavoured Frozen Fanta",
-                "1.00",
+                1.00,
                 "583",
                 R.drawable.frozenfanta
         ));
@@ -108,7 +108,7 @@ public class MenuDatabase {
                 12,
                 "Medium Fries",
                 "Deep Fried Thinly Cut Potato, Salt",
-                "2.85",
+                2.85,
                 "1240",
                 R.drawable.fries
         ));
@@ -116,7 +116,7 @@ public class MenuDatabase {
                 13,
                 "Sausage & Egg Muffin",
                 "English Muffin, Beef Sausage, Egg, Sliced Cheese",
-                "4.50",
+                4.50,
                 "1560",
                 R.drawable.sausageandeggmuffin
         ));
@@ -124,7 +124,7 @@ public class MenuDatabase {
                 14,
                 "Hotcakes with Butter & Syrup",
                 "Hotcake, Syruo, Butter",
-                "4.75",
+                4.75,
                 "2500",
                 R.drawable.hotcakes
         ));
@@ -132,7 +132,7 @@ public class MenuDatabase {
                 15,
                 "Hash Brown",
                 "Best Hash Brown in Town",
-                "2.25",
+                2.25,
                 "587",
                 R.drawable.hashbrown
         ));
@@ -140,7 +140,7 @@ public class MenuDatabase {
                 16,
                 "Hot Fudge Sundae",
                 "Soft Serve Ice-Cream, Hot Fudge Chocolate Topping",
-                "3.60",
+                3.60,
                 "1460",
                 R.drawable.hotfudgesundae
         ));

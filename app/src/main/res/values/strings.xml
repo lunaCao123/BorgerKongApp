@@ -11,4 +11,12 @@
     <string name="food_kilojoules">Kilojoules</string>
     <string name="kj_label">kJ</string>
     <string name="dollar_sign">$</string>
+    <string name="cancel_btn">Order More</string>
+    <string name="done_btn">Checkout</string>
+    <string name="vieworder">Your Order</string>
+    <string name="times">x</string>
+    <string name="test_quantity">0</string>
+    <string name="orderTotal_label">Your Order</string>
+    <string name="total">Total: </string>
+    <string name="zero">0.00</string>
 </resources>

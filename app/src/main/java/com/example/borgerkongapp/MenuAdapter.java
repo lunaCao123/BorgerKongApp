@@ -15,7 +15,11 @@ import java.util.ArrayList;
 
 public class MenuAdapter extends RecyclerView.Adapter <MenuAdapter.MenuViewHolder> {
 
-    private ArrayList<MenuItem>menuItems = MenuDatabase.getAllMenuItems();
+    private ArrayList<MenuItem>menuItems;
+
+    public void setData (ArrayList<MenuItem>menuItems){
+        this.menuItems = menuItems;
+    }
 
     @NonNull
     @Override
@@ -29,8 +33,10 @@ public class MenuAdapter extends RecyclerView.Adapter <MenuAdapter.MenuViewHolde
     @Override
     public void onBindViewHolder(@NonNull MenuAdapter.MenuViewHolder holder, int position) {
         final MenuItem menuitemAtPosition = menuItems.get(position);
+
         holder.menuitemName.setText(menuitemAtPosition.getMenuitemName());
-        holder.menuitemPrice.setText(menuitemAtPosition.getMenuitemPrice());
+        Double menuPrice = menuitemAtPosition.getMenuitemPrice();
+        holder.menuitemPrice.setText(String.format("%.2f",menuPrice));
         holder.menuitemKJ.setText(menuitemAtPosition.getKilojoules());
         holder.menuitemImage.setImageResource(menuitemAtPosition.getImageDrawableId());
         holder.view.setOnClickListener(new View.OnClickListener(){
