@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import static com.example.borgerkongapp.MenuitemDetailAcitivity.newQuantity;
+
 
 public class ViewOrderDetail extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -36,7 +36,7 @@ public class ViewOrderDetail extends AppCompatActivity {
         orderitemCostTextView = findViewById(R.id.itemcost);
         orderitemCostTextView.setText(MenuitemDetailAcitivity.orderitemcost);
         orderitemQuantity = findViewById(R.id.orderQuantity);
-        orderitemQuantity.setText(newQuantity);
+        orderitemQuantity.setText(MenuitemDetailAcitivity.newQuantity);
         orderitemTotal = findViewById(R.id.itemTotal);
         orderitemTotal.setText(MenuitemDetailAcitivity.totalCost);
 
@@ -47,7 +47,10 @@ public class ViewOrderDetail extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Thank You for Your Order", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        totalCost.setText("0.00");
+        MenuitemDetailAcitivity.totalCost = "0.00";
+        MenuitemDetailAcitivity.orderitemcost = "0.00";
+        MenuitemDetailAcitivity.orderitemname = "No Order";
+        MenuitemDetailAcitivity.newQuantity = "0";
     }
     public void orderMore_btn(View view){
         Intent intent1 = new Intent(this, MainActivity.class);
